@@ -3,7 +3,6 @@
 install_gnome_extensions(){
 	array=( https://extensions.gnome.org/extension/517/caffeine/
 			https://extensions.gnome.org/extension/5004/dash-to-dock-for-cosmic/
-			https://extensions.gnome.org/extension/5766/desaturated-tray-icons/
 			https://extensions.gnome.org/extension/1162/emoji-selector/
 			https://extensions.gnome.org/extension/4422/gnome-clipboard/
 			https://extensions.gnome.org/extension/4410/gnome-trash/
