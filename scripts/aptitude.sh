@@ -40,12 +40,12 @@ upgrade_cleanup() {
   echo -e "${BLUE}[INFO] - Performing upgrade and cleanup...${NO_COLOR}"
   sleep 1
 
-  sudo rm -rf /var/lib/dpkg/lock /var/lib/dpkg/lock-frontend /var/cache/apt/archives/lock
+  sudo rm -rf /var/lib/dpkg/lock /var/lib/dpkg/lock-frontend /var/cache/apt/archives/lock -y
   sudo apt autoclean
   sudo apt clean
   sudo apt update -m
   sudo dpkg --configure -a
-  sudo apt install -f
+  sudo apt install -f -y
   sudo apt full-upgrade -y
   sudo apt autoremove -y
 
