@@ -42,10 +42,10 @@ configure_shell(){
 	sleep 1
 	echo
 	echo
-	
+
 	# WEZTERM
-	cp ./.dotfiles/.wezterm.lua $HOME/
-	echo -e "${ORANGE}[WEZTERM CONFIG] - Copied do home ${NO_COLOR}"
+	cp ./.dotfiles/ghostty -r $HOME/.config/
+	echo -e "${ORANGE}[GHOSTTY CONFIG] - Copied to .config ${NO_COLOR}"
 	sleep 1
 	echo
 	echo
