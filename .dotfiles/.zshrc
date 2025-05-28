@@ -1,7 +1,6 @@
-eval "$(starship init zsh)"
-. "$HOME/.asdf/asdf.sh"
 
-source /home/ducck/.antigen.zsh
+eval "$(starship init zsh)"
+source /home/ducck/antigen.zsh
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
@@ -15,12 +14,15 @@ antigen bundle command-not-found
 
 # Syntax highlighting bundle.
 antigen bundle zsh-users/zsh-syntax-highlighting
-antigen bundle zsh-users/zsh-autosuggestions
 
 # Tell Antigen that you're done.
 antigen apply
 
+# Alias
 # Navigation
+alias .="cd .."
+alias ..="cd ..."
+alias ...="cd ...."
 alias exa="exa --color=always"
 alias l='exa -lh --icons'
 alias ll='exa -lha --icons'
@@ -47,48 +49,9 @@ alias fsearch='flatpak search'
 alias finstall='flatpak install'
 alias fremove='flatpak remove'
 
-# GIT
-alias gcl='git clone'
-alias gta='git add'
-alias gct='git commit'
-alias gl='git log'
-alias glo='git log --oneline'
-alias gst='git status'
+alias yt-aud='yt-dlp -x --audio-format mp3 --embed-metadata --embed-thumbnail --add-metadata -P $HOME/Music'
+alias yt-vide='yt-dlp --add-metadata --embed-metadata --embed-thumbnail -P $HOME/Videos/'
 
-# APPS
-alias zed='flatpak run dev.zed.Zed'
+# Paths
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
-# SCRIPTS
- nerdfetch
-
-PATH=~/.console-ninja/.bin:$PATH
-
-# bun completions
-[ -s "/home/fernando/.bun/_bun" ] && source "/home/fernando/.bun/_bun"
-
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
-export PATH=$HOME/.local/bin:$PATH
-export TERM=xterm
-export SUDO_PROMPT="[sudo] password for $(whoami): "
-
-# add_spaces_to_output() {
-#   while IFS= read -r line; do
-#     echo -e "  $line"
-#   done
-# }
-
-# preexec() {
-#   local BUFFER=$(echo "$1" | awk '{print $1}')
-#   echo $BUFFER
-#   if [[ "$BUFFER" =~ ^(node|pnpm|npm|yarn|bun|npx|ls|grep|cat|batcat|vim|nvim|nano|tmux|less|more|tail|head|bashtop) ]]; then
-#     return
-#   fi
-
-#   preexec() {
-#     print -n ""
-#   }
-
-#   exec 1> >(add_spaces_to_output) 2>/dev/null
-# }
