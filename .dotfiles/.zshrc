@@ -1,6 +1,6 @@
 
 eval "$(starship init zsh)"
-source /home/ducck/antigen.zsh
+source /home/ducck/.antigen.zsh
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
