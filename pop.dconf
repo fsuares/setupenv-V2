@@ -1,0 +1,360 @@
+[ca/desrt/dconf-editor]
+saved-pathbar-path='/org/gnome/'
+saved-view='/org/gnome/'
+window-height=1072
+window-is-maximized=false
+window-width=1912
+
+[com/github/donadigo/eddy]
+mime-types=['application/vnd.debian.binary-package', 'application/x-deb']
+window-height=554
+window-x=1197
+window-y=523
+
+[com/system76/hidpi]
+mode='lodpi'
+
+[io/elementary/appcenter/settings]
+cached-drivers=['nvidia-driver-550-open, (kernel modules provided by nvidia-dkms-550-open)', 'nvidia-driver-570-server-open, (kernel modules provided by nvidia-dkms-570-server-open)', 'nvidia-driver-570-open, (kernel modules provided by nvidia-dkms-570-open)', 'nvidia-driver-565, (kernel modules provided by nvidia-dkms-565)', 'nvidia-driver-535-server-open, (kernel modules provided by nvidia-dkms-535-server-open)', 'nvidia-driver-570-server, (kernel modules provided by nvidia-dkms-570-server)', 'nvidia-driver-470-server, (kernel modules provided by nvidia-dkms-470-server)', 'nvidia-driver-565-open, (kernel modules provided by nvidia-dkms-565-open)', 'nvidia-driver-545-open, (kernel modules provided by nvidia-dkms-545-open)', 'nvidia-driver-535-open, (kernel modules provided by nvidia-dkms-535-open)', 'nvidia-driver-470, (kernel modules provided by nvidia-dkms-470)', 'nvidia-driver-570, (kernel modules provided by nvidia-dkms-570)', 'nvidia-driver-535-server, (kernel modules provided by nvidia-dkms-535-server)']
+last-refresh-time=int64 1748382315
+window-height=1115
+window-maximized=false
+window-width=954
+
+[org/gnome/boxes]
+first-run=false
+view='icon-view'
+window-maximized=false
+window-position=[48, 32]
+window-size=[1868, 1164]
+
+[org/gnome/control-center]
+last-panel='desktop-main'
+
+[org/gnome/desktop/app-folders/folders/Pop-Office]
+apps=['libreoffice-calc.desktop', 'libreoffice-draw.desktop', 'libreoffice-impress.desktop', 'libreoffice-math.desktop', 'libreoffice-startcenter.desktop', 'libreoffice-writer.desktop']
+name='Office'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Pop-System]
+apps=['gnome-language-selector.desktop', 'gnome-session-properties.desktop', 'gnome-system-monitor.desktop', 'im-config.desktop', 'nm-connection-editor.desktop', 'nvidia-settings.desktop', 'org.gnome.baobab.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.PowerStats.desktop', 'org.gnome.seahorse.Application.desktop', 'software-properties-gnome.desktop', 'system76-driver.desktop', 'system76-firmware.desktop']
+name='System'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Pop-Utility]
+apps=['com.github.donadigo.eddy.desktop', 'com.system76.Popsicle.desktop', 'gucharmap.desktop', 'info.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.Extensions.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.font-viewer.desktop', 'org.gnome.Screenshot.desktop', 'org.gnome.Totem.desktop', 'pop-cosmic-applications.desktop', 'pop-cosmic-launcher.desktop', 'pop-cosmic-workspaces.desktop', 'simple-scan.desktop', 'yelp.desktop']
+name='Utilities'
+translate=true
+
+[org/gnome/desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/wallpapers/124.jpg'
+picture-uri-dark='file:///usr/share/backgrounds/wallpapers/124.jpg'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[org/gnome/desktop/input-sources]
+current=uint32 0
+per-window=false
+sources=[('xkb', 'us')]
+xkb-options=@as []
+
+[org/gnome/desktop/interface]
+color-scheme='prefer-dark'
+cursor-theme='Bibata-Modern-Ice'
+document-font-name='Roboto 11'
+font-antialiasing='grayscale'
+font-hinting='slight'
+font-name='Roboto 10'
+gtk-theme='WhiteSur-Dark-solid'
+icon-theme='Tela-dark'
+monospace-font-name='JetBrainsMono Nerd Font 11'
+show-battery-percentage=false
+
+[org/gnome/desktop/notifications]
+application-children=['firefox', 'org-gnome-nautilus', 'io-elementary-appcenter', 'com-github-donadigo-eddy', 'com-mattjakeman-extensionmanager', 'org-mozilla-thunderbird', 'gnome-control-center', 'discord', 'org-gnome-software', 'gnome-network-panel', 'transmission-gtk', 'gnome-printers-panel', 'org-gnome-boxes', 'org-gnome-shell-extensions', 'org-qbittorrent-qbittorrent', 'com-spotify-client', 'gnome-power-panel', 'org-gnome-eog', 'ca-desrt-dconf-editor', 'org-gnome-tweaks', 'org-gnome-extensions-desktop']
+
+[org/gnome/desktop/notifications/application/ca-desrt-dconf-editor]
+application-id='ca.desrt.dconf-editor.desktop'
+
+[org/gnome/desktop/notifications/application/com-github-donadigo-eddy]
+application-id='com.github.donadigo.eddy.desktop'
+
+[org/gnome/desktop/notifications/application/com-mattjakeman-extensionmanager]
+application-id='com.mattjakeman.ExtensionManager.desktop'
+
+[org/gnome/desktop/notifications/application/com-spotify-client]
+application-id='com.spotify.Client.desktop'
+
+[org/gnome/desktop/notifications/application/discord]
+application-id='discord.desktop'
+
+[org/gnome/desktop/notifications/application/firefox]
+application-id='firefox.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-control-center]
+application-id='gnome-control-center.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-network-panel]
+application-id='gnome-network-panel.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-power-panel]
+application-id='gnome-power-panel.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-printers-panel]
+application-id='gnome-printers-panel.desktop'
+
+[org/gnome/desktop/notifications/application/io-elementary-appcenter]
+application-id='io.elementary.appcenter.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-boxes]
+application-id='org.gnome.Boxes.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-eog]
+application-id='org.gnome.eog.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-extensions-desktop]
+application-id='org.gnome.Extensions.desktop.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-shell-extensions]
+application-id='org.gnome.Shell.Extensions.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-software]
+application-id='org.gnome.Software.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-tweaks]
+application-id='org.gnome.tweaks.desktop'
+
+[org/gnome/desktop/notifications/application/org-mozilla-thunderbird]
+application-id='org.mozilla.Thunderbird.desktop'
+
+[org/gnome/desktop/notifications/application/org-qbittorrent-qbittorrent]
+application-id='org.qbittorrent.qBittorrent.desktop'
+
+[org/gnome/desktop/notifications/application/transmission-gtk]
+application-id='transmission-gtk.desktop'
+
+[org/gnome/desktop/privacy]
+report-technical-problems=false
+
+[org/gnome/desktop/screensaver]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///home/ducck/.local/share/backgrounds/2025-05-26-22-43-20-124.jpg'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[org/gnome/desktop/session]
+idle-delay=uint32 0
+
+[org/gnome/desktop/sound]
+allow-volume-above-100-percent=true
+
+[org/gnome/desktop/wm/keybindings]
+close=['<Alt>F4', '<Super>c']
+
+[org/gnome/desktop/wm/preferences]
+button-layout='close,minimize,maximize:appmenu'
+theme='WhiteSur-Dark-solid'
+titlebar-font='Roboto 10'
+
+[org/gnome/eog/view]
+background-color='rgb(0,0,0)'
+use-background-color=true
+
+[org/gnome/evince/default]
+window-ratio=(1.5932773109243696, 1.3147268408551069)
+
+[org/gnome/evolution-data-server]
+migrated=true
+network-monitor-gio-name=''
+
+[org/gnome/gedit/plugins]
+active-plugins=['modelines', 'spell', 'docinfo', 'sort', 'openlinks', 'filebrowser']
+
+[org/gnome/gedit/plugins/filebrowser]
+root='file:///'
+tree-view=true
+virtual-root='file:///home/ducck/Downloads/setupenv-V2-master/scripts'
+
+[org/gnome/gedit/preferences/ui]
+show-tabs-mode='auto'
+
+[org/gnome/gedit/state/window]
+bottom-panel-size=140
+side-panel-active-page='GeditWindowDocumentsPanel'
+side-panel-size=200
+size=(900, 700)
+state=87168
+
+[org/gnome/gnome-system-monitor]
+maximized=false
+network-total-in-bits=false
+show-dependencies=false
+show-whose-processes='user'
+window-state=(948, 1107, 964, 36)
+
+[org/gnome/gnome-system-monitor/disktreenew]
+col-6-visible=true
+col-6-width=0
+
+[org/gnome/mutter]
+center-new-windows=true
+edge-tiling=false
+experimental-features=@as []
+
+[org/gnome/nautilus/compression]
+default-compression-format='zip'
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='icon-view'
+search-filter-time-type='last_modified'
+search-view='list-view'
+
+[org/gnome/nautilus/window-state]
+initial-size=(1912, 1115)
+maximized=false
+sidebar-width=200
+
+[org/gnome/nm-applet/eap/9fdc6994-bd19-479c-8e06-b23ee50733b2]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/settings-daemon/plugins/color]
+night-light-enabled=true
+night-light-temperature=uint32 3700
+
+[org/gnome/settings-daemon/plugins/media-keys]
+terminal=['<Super>Return']
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/PopLaunch1]
+binding='Launch1'
+command='gnome-control-center wifi'
+name='WiFi'
+
+[org/gnome/settings-daemon/plugins/power]
+idle-dim=false
+sleep-inactive-ac-timeout=1800
+sleep-inactive-ac-type='nothing'
+sleep-inactive-battery-timeout=1800
+sleep-inactive-battery-type='suspend'
+
+[org/gnome/shell]
+disabled-extensions=['cosmic-dock@system76.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'Rounded_Corners@lennart-k']
+enabled-extensions=['ding@rastersoft.com', 'pop-cosmic@system76.com', 'pop-shell@system76.com', 'system76-power@system76.com', 'ubuntu-appindicators@ubuntu.com', 'cosmic-workspaces@system76.com', 'popx11gestures@system76.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'dash-to-dock@micxgx.gmail.com', 'dash-to-dock-cosmic-@halfmexicanhalfamazing@gmail.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'clipboard-indicator@tudmotu.com', 'clipboard-history@alexsaveau.dev', 'gnome-clipboard@b00f.github.io', 'caffeine@patapon.info', 'logomenu@aryan_k', 'hidetopbar@mathieu.bidon.ca', 'rounded-window-corners@yilozt', 'desaturated-tray-icons@cr1337.github.com', 'emoji-selector@maestroschan.fr', 'gnome-trash@b00f.github.io', 'mediacontrols@cliffniff.github.com', 'PrivacyMenu@stuarthayhurst', 'refresh-wifi@kgshank.net', 'sound-output-device-chooser@kgshank.net']
+favorite-apps=['org.gnome.Nautilus.desktop', 'io.elementary.appcenter.desktop', 'org.chromium.Chromium.desktop', 'org.mozilla.Thunderbird.desktop', 'com.mitchellh.ghostty.desktop', 'com.bitwarden.desktop.desktop', 'org.gnome.Polari.desktop', 'pumble-desktop.desktop', 'discord.desktop', 'md.obsidian.Obsidian.desktop', 'com.spotify.Client.desktop', 'com.usebruno.Bruno.desktop', 'io.beekeeperstudio.Studio.desktop', 'code.desktop', 'com.jetbrains.WebStorm.desktop', 'com.jetbrains.IntelliJ-IDEA-Community.desktop', 'dev.zed.Zed.desktop']
+welcome-dialog-last-shown-version='42.9'
+
+[org/gnome/shell/extensions/Logo-menu]
+menu-button-icon-image=27
+menu-button-icon-size=20
+
+[org/gnome/shell/extensions/caffeine]
+user-enabled=true
+
+[org/gnome/shell/extensions/dash-to-dock-pop]
+apply-custom-theme=false
+autohide-in-fullscreen=false
+background-color='rgb(42,42,42)'
+background-opacity=1.0
+border-radius=4
+custom-background-color=true
+custom-theme-shrink=true
+dash-max-icon-size=30
+dock-alignment='START'
+dock-fixed=true
+dock-position='LEFT'
+extend-height=true
+floating-margin=0
+force-straight-corner=false
+height-fraction=0.90000000000000002
+hot-keys=false
+intellihide-mode='ALL_WINDOWS'
+multi-monitor=true
+preferred-monitor=-2
+preferred-monitor-by-connector='eDP-1'
+running-indicator-style='DEFAULT'
+transparency-mode='FIXED'
+
+[org/gnome/shell/extensions/dash-to-dock]
+extend-height=false
+manualhide=false
+
+[org/gnome/shell/extensions/emoji-selector]
+recently-used=['😂', '❤️', '😍', '😭', '😊', '😒', '😘', '😩', '🤔', '☺️', '👌']
+
+[org/gnome/shell/extensions/hidetopbar]
+mouse-sensitive=true
+mouse-sensitive-fullscreen-window=true
+pressure-threshold=15
+pressure-timeout=500
+
+[org/gnome/shell/extensions/lennart-k/rounded_corners]
+corner-radius=8
+
+[org/gnome/shell/extensions/mediacontrols]
+mouse-actions=['toggle_play', 'toggle_menu', 'none', 'none', 'none', 'none', 'none', 'none']
+
+[org/gnome/shell/extensions/pop-cosmic]
+clock-alignment='RIGHT'
+show-applications-button=false
+show-workspaces-button=false
+
+[org/gnome/shell/extensions/pop-shell]
+active-hint=false
+gap-inner=uint32 1
+gap-outer=uint32 1
+tile-by-default=true
+tile-enter=['<Super>KP_Enter']
+
+[org/gnome/shell/extensions/rounded-window-corners]
+custom-rounded-corner-settings=@a{sv} {}
+global-rounded-corner-settings={'padding': <{'left': <uint32 1>, 'right': <uint32 1>, 'top': <uint32 1>, 'bottom': <uint32 1>}>, 'keep_rounded_corners': <{'maximized': <false>, 'fullscreen': <false>}>, 'border_radius': <uint32 10>, 'smoothing': <uint32 0>, 'enabled': <true>}
+settings-version=uint32 5
+
+[org/gnome/shell/extensions/user-theme]
+name='WhiteSur-Dark-solid'
+
+[org/gnome/software]
+check-timestamp=int64 1748337136
+install-timestamp=int64 1745536786
+online-updates-timestamp=int64 1747745985
+update-notification-timestamp=int64 1748295876
+
+[org/gnome/system/location]
+enabled=true
+
+[org/gtk/gtk4/settings/color-chooser]
+custom-colors=[(0.16470588743686676, 0.16470588743686676, 0.16470588743686676, 1.0)]
+selected-color=(true, 0.16470588743686676, 0.16470588743686676, 0.16470588743686676, 1.0)
+
+[org/gtk/gtk4/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=162
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+window-size=(805, 374)
+
+[org/gtk/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=true
+show-size-column=true
+show-type-column=true
+sidebar-width=176
+sort-column='name'
+sort-directories-first=true
+sort-order='ascending'
+type-format='category'
+window-position=(351, 181)
+window-size=(1262, 822)
