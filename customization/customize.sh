@@ -10,13 +10,13 @@ apply_custom(){
 
 	# Intall and applyGTK Theme
 	install_gtk_theme
-	
+
 	# Install and apply Icons
 	install_icons
-	
+
 	# Install and apply Cursor
 	install_cursor
-	
+
 	# Install fonts
 	install_fonts
 }
