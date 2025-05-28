@@ -96,7 +96,26 @@ install_deb_apps(){
 		'zlib1g'
 		'zlib1g-dev'
 		'zsh'
+		'exa'
 	)
+
+	wget -O vscode.deb "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64"
+	if ! dpkg -l | grep -q code; then
+		echo -e "${GREEN}[INFO] - Installing Visual Studio Code...${NO_COLOR}"
+		sudo dpkg -i vscode.deb
+		rm vscode.deb
+	else
+		echo -e "${ORANGE}[INFO] - Visual Studio Code is already installed.${NO_COLOR}"
+	fi
+
+	wget https://github.com/mkasberg/ghostty-ubuntu/releases/download/1.1.3-0-ppa2/ghostty_1.1.3-0.ppa2_amd64_22.04.deb
+	if ! dpkg -l | grep -q ghostty; then
+		echo -e "${GREEN}[INFO] - Installing Ghostty...${NO_COLOR}"
+		sudo dpkg -i ghostty_1.1.3-0.ppa2_amd64_22.04.deb
+		rm ghostty_1.1.3-0.ppa2_amd64_22.04.deb
+	else
+		echo -e "${ORANGE}[INFO] - Ghostty is already installed.${NO_COLOR}"
+	fi
 
 	curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 	echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null

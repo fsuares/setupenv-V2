@@ -18,11 +18,15 @@ install_flatpak_apps(){
 		'com.usebruno.Bruno'
 		'dev.zed.Zed'
 		'io.github.realmazharhussain.GdmSettings'
-		'io.github.zen_browser.zen'
 		'md.obsidian.Obsidian'
 		'org.gnome.Polari'
 		'org.gtk.Gtk3theme.Pop-dark'
 		're.sonny.Commit'
+		'org.chromium.Chromium'
+		'org.mozilla.Thunderbird'
+		'io.beekeeperstudio.Studio'
+		'com.jetbrains.IntelliJ-IDEA-Community'
+		'com.bitwarden.desktop'
 	)
 
 
