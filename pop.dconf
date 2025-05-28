@@ -216,7 +216,7 @@ search-filter-time-type='last_modified'
 search-view='list-view'
 
 [org/gnome/nautilus/window-state]
-initial-size=(1912, 1115)
+initial-size=(1868, 1164)
 maximized=false
 sidebar-width=200
 
@@ -246,7 +246,7 @@ sleep-inactive-battery-type='suspend'
 [org/gnome/shell]
 disabled-extensions=['cosmic-dock@system76.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'Rounded_Corners@lennart-k']
 enabled-extensions=['ding@rastersoft.com', 'pop-cosmic@system76.com', 'pop-shell@system76.com', 'system76-power@system76.com', 'ubuntu-appindicators@ubuntu.com', 'cosmic-workspaces@system76.com', 'popx11gestures@system76.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'dash-to-dock@micxgx.gmail.com', 'dash-to-dock-cosmic-@halfmexicanhalfamazing@gmail.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'clipboard-indicator@tudmotu.com', 'clipboard-history@alexsaveau.dev', 'gnome-clipboard@b00f.github.io', 'caffeine@patapon.info', 'logomenu@aryan_k', 'hidetopbar@mathieu.bidon.ca', 'rounded-window-corners@yilozt', 'desaturated-tray-icons@cr1337.github.com', 'emoji-selector@maestroschan.fr', 'gnome-trash@b00f.github.io', 'mediacontrols@cliffniff.github.com', 'PrivacyMenu@stuarthayhurst', 'refresh-wifi@kgshank.net', 'sound-output-device-chooser@kgshank.net']
-favorite-apps=['org.gnome.Nautilus.desktop', 'io.elementary.appcenter.desktop', 'org.chromium.Chromium.desktop', 'org.mozilla.Thunderbird.desktop', 'com.mitchellh.ghostty.desktop', 'com.bitwarden.desktop.desktop', 'org.gnome.Polari.desktop', 'pumble-desktop.desktop', 'discord.desktop', 'md.obsidian.Obsidian.desktop', 'com.spotify.Client.desktop', 'com.usebruno.Bruno.desktop', 'io.beekeeperstudio.Studio.desktop', 'code.desktop', 'com.jetbrains.WebStorm.desktop', 'com.jetbrains.IntelliJ-IDEA-Community.desktop', 'dev.zed.Zed.desktop']
+favorite-apps=['org.gnome.Nautilus.desktop', 'io.elementary.appcenter.desktop', 'org.chromium.Chromium.desktop', 'org.mozilla.Thunderbird.desktop', 'com.mitchellh.ghostty.desktop', 'com.bitwarden.desktop.desktop', 'org.gnome.Polari.desktop', 'pumble-desktop.desktop', 'com.github.IsmaelMartinez.teams_for_linux.desktop', 'com.gigitux.youp.desktop', 'com.slack.Slack.desktop', 'discord.desktop', 'md.obsidian.Obsidian.desktop', 'com.spotify.Client.desktop', 'com.usebruno.Bruno.desktop', 'io.beekeeperstudio.Studio.desktop', 'code.desktop', 'com.jetbrains.WebStorm.desktop', 'com.jetbrains.IntelliJ-IDEA-Community.desktop', 'dev.zed.Zed.desktop']
 welcome-dialog-last-shown-version='42.9'
 
 [org/gnome/shell/extensions/Logo-menu]
@@ -264,15 +264,16 @@ background-opacity=1.0
 border-radius=4
 custom-background-color=true
 custom-theme-shrink=true
-dash-max-icon-size=30
-dock-alignment='START'
+dash-max-icon-size=29
+dock-alignment='CENTRE'
 dock-fixed=true
-dock-position='LEFT'
-extend-height=true
+dock-position='BOTTOM'
+extend-height=false
 floating-margin=0
 force-straight-corner=false
-height-fraction=0.90000000000000002
+height-fraction=0.97999999999999998
 hot-keys=false
+icon-size-fixed=false
 intellihide-mode='ALL_WINDOWS'
 multi-monitor=true
 preferred-monitor=-2

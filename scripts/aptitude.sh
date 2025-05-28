@@ -63,7 +63,6 @@ install_deb_apps() {
     'ca-certificates'
     'cpp'
     'curl'
-    'code'
     'containerd.io'
     'dconf-cli'
     'docker-buildx-plugin'
