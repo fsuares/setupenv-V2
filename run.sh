@@ -38,7 +38,6 @@ read -p "Continue? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][e
 configure_shell
 
 # Needs to reload shell to run
-bash
 echo -e "${ORANGE}Next step will config is asdf vm${NO_COLOR}"
 read -p "Continue? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
 configure_asdf
